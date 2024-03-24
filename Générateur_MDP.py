@@ -10,11 +10,11 @@ print("Ce générateur de mot de passe créer des chaînes de 12 caractères.")
 while (len(MDP) < 12):
     a = random.choice(LETTRES)
     MDP += a
-    b = random.choice(lettres)
-    MDP += b
     c = random.choice(chiffres)
     MDP += c
     d = random.choice(Special)
     MDP += d
+    b = random.choice(lettres)
+    MDP += b
 else:
     print(MDP)
