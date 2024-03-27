@@ -8,7 +8,7 @@ def MDPGEN():
     MDP = [""]
     mdp_final = ""
     longeur = int(input("Veuillez entrer le nombre de caractères souhaités : "))
-    print("Ce générateur de mot de passe créera des chaînes de {longeur} caractères.")
+    print(f"Ce générateur de mot de passe créera des chaînes de {longeur} caractères.")
 
     while (len(MDP) < longeur):
         a = random.choice(LETTRES)
